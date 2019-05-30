@@ -9,7 +9,7 @@ A quick walkthrough in how to integrate graphics.h library to gcc compiler in li
 5. Type `sudo nano /etc/apt/sources.list` and press ENTER
 6. Add the following lines there:
     ```deb http://us.archive.ubuntu.com/ubuntu/ xenial main universe
-       deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main universe```
+       deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main universe
 7. Press CTRL+X and then press Y and press ENTER
 8. Now Add this line to the terminal:
     `sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-1.8 guile-1.8-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev libesd0-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev libxext-dev x11proto-xext-dev libfreetype6 libaa1 libaa1-dev libslang2-dev libasound2 libasound2-dev` and press ENTER.
@@ -31,7 +31,7 @@ A quick walkthrough in how to integrate graphics.h library to gcc compiler in li
             delay(500000); 
             closegraph(); 
             return 0; 
-        }```
+        }
 14. Save it as `demo.cpp` and close the editor.
 15. Type `gcc demo.cpp -o demo -lgraph` and ENTER.
 16. You should see the output by now.
